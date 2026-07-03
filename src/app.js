@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 });
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://task-management-ar.vercel.app/",
     credentials: true,
   }),
 );
