@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 });
 app.use(
   cors({
-    origin: "https://task-management-ar.vercel.app/",
+    origin: "https://task-management-ar.vercel.app",
     credentials: true,
   }),
 );
